@@ -2,8 +2,8 @@
 import os
 import sys
 import urllib.request
-client_id = "YOUR_CLIENT_ID"
-client_secret = "YOUR_CLIENT_SECRET"
+client_id = "9O98CRixTE5efUwH5S2b"
+client_secret = "6XBHGAm6XN"
 url = "https://openapi.naver.com/v1/datalab/search"
 body = "{\"startDate\":\"2017-01-01\",\"endDate\":\"2017-04-30\",\"timeUnit\":\"month\",\"keywordGroups\":[{\"groupName\":\"한글\",\"keywords\":[\"한글\",\"korean\"]},{\"groupName\":\"영어\",\"keywords\":[\"영어\",\"english\"]}],\"device\":\"pc\",\"ages\":[\"1\",\"2\"],\"gender\":\"f\"}";
 
